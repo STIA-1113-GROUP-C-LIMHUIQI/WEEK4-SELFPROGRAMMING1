@@ -1,0 +1,52 @@
+package mathClass;
+
+public class Exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int x = 3; 
+		int y = 8;
+		int z = 4;
+		double result;
+		result = (-y + Math.sqrt(y*y-4*x*z)) / (2*x);
+		
+		double i = y * y;
+		double j = 4 * x * z;
+		double k = i - j;
+		double kk = Math.sqrt(k);
+		double l = -y + kk;
+		double m = 2 * x;
+		double mm = l / m;
+		double ijk = 112.257;
+		
+		double power = Math.pow(x, y);
+		double maxi = Math.max(x, y);
+		double mini = Math.min(x, y);
+		double rnd = Math.round(ijk);
+		
+		//int asci = (int)x;
+		//int ascii = (int)y;	if use character as variable
+		//int asciii = (int)z;	to find value of character
+		
+		//System.out.println("x is " + asci);
+		//System.out.println("y is " + ascii);
+		//System.out.println("z is " + asciii);
+		
+		System.out.println("i is " + i);
+		System.out.println("j is " + j);
+		System.out.println("k is " + k);
+		System.out.println("kk is " + kk);
+		System.out.println("l is " + l);
+		System.out.println("m is " + m);
+		System.out.println("mm is " + mm);
+		System.out.println("Result is " + result);
+		
+		System.out.println("The power is " + power);
+		System.out.println("The maximum number is " + maxi);
+		System.out.println("The minimum number is " + mini);
+		System.out.println("The round number for ijk is " + rnd);
+		
+	}
+
+}
