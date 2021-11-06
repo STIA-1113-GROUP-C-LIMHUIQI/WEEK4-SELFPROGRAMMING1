@@ -1,0 +1,19 @@
+package selfLearning;
+
+public class MathFormula {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a = 12;
+		int b = 15;
+		int c = 3;
+		double result;
+		
+		result = (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
+		
+		System.out.println("The result is " + result);
+
+	}
+
+}
