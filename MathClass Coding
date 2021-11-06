@@ -1,0 +1,26 @@
+package selfLearning;
+
+public class MathClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		double x = 30;    
+        double y = 2;    
+          
+        // return the maximum of two numbers  
+        System.out.println("Maximum number of x and y is: " +Math.max(x, y));   
+        
+        //return the minimum of two numbers
+        System.out.println("Minimum number of x and y is: " +Math.min(x, y));   
+          
+        // return the square root of y   
+        System.out.println("Square root of y is: " + Math.sqrt(y));   
+          
+        //returns 30 power of 2 i.e. 30*30    
+        System.out.println("Power of x and y is: " + Math.pow(x, y));      
+  
+
+	}
+
+}
